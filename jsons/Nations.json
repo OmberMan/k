@@ -488,7 +488,7 @@
 		"uniqueName": "The Prophet's Dream",
 		"uniques": [
 			"[50]% of excess happiness converted to [Faith]",
-			"[-33]% Unhappiness from [Population] [in all non-occupied cities],
+			"[-33]% Unhappiness from [Population] [in all non-occupied cities]",
 			"[+15]% Food is carried over after population increases [in cities following your religion]",
 "Receive free [Great Visionary] when you discover [Computers]", "[+50]% maintenance costs"
 		],
@@ -1035,7 +1035,8 @@
 		"uniqueName": "Green Austerity",
 		"uniques": [
 			"Allied City-States provide [Culture] equal to [+20]% of what they produce for themselves",
-			"Resting point for Influence with City-States is increased by [10]"
+			"Resting point for Influence with City-States is increased by [10]", "[+1 Production] from all [Food] buildings"
+
 		],
 		"cities": [
 			"Weltgeist",
