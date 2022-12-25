@@ -489,7 +489,7 @@
 		"uniques": [
 			"[50]% of excess happiness converted to [Faith]",
 			"[-33]% Unhappiness from [Population] [in all non-occupied cities]",
-			"[+15]% Food is carried over after population increases [in cities following your religion]",
+			"[+15]% Food is carried over after population increases [in all cities in which the majority religion is a major religion]",
 "Receive free [Great Visionary] when you discover [Computers]", "[+50]% maintenance costs"
 		],
 		"cities": [
