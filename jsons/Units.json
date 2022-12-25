@@ -7,7 +7,7 @@
 		"movement": 2,
 		"strength": 9,
 		"cost": 35,
-		"upgradesTo": "Colony Rifleman",
+		//"upgradesTo": "Colony Rifleman",
 		"uniques": [
 			"May upgrade to [Colony Rifleman] through ruins-like effects",
 			"Never appears as a Barbarian unit"
@@ -31,12 +31,12 @@
 		"replaces": "Frontier Militia",
 		"uniqueTo": "Kavithan Protectorate",
 		"movement": 2,
-		"strength": 9,
+		"strength": 6,
 		"cost": 40,
-		"upgradesTo": "Colony Rifleman",
+		//"upgradesTo": "Colony Rifleman",
 		"uniques": [
 			"May upgrade to [Colony Rifleman] through ruins-like effects",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit", "All healing effects doubled"
 		],
 		"attackSound": "shot",
 		"promotions": ["Keeper of the Oath"],
@@ -60,7 +60,7 @@
 		"strength": 16,
 		"cost": 80,
 		"requiredTech": "Next-Gen Armaments",
-		"upgradesTo": "Exoframe Soldier",
+		//"upgradesTo": "Exoframe Soldier",
 		"uniques": [
 			"May upgrade to [Exoframe Soldier] through ruins-like effects",
 			"Never appears as a Barbarian unit"
@@ -89,7 +89,7 @@
 		"cost": 125,
 		"requiredTech": "Next-Gen Armaments",
 		"requiredResource": "Promethine",
-		"upgradesTo": "Colonial Armor",
+		//"upgradesTo": "Colonial Armor",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
