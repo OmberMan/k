@@ -9,7 +9,7 @@
 		"name": "Keeper of the Oath",
 		"uniques": [
 			"Ignores Zone of Control",
-			"Prevents spreading of religion to the city it is next to"
+			"Prevents spreading of religion to the city it is next to", "All healing effects doubled"
 		],
 		"row": 120,
         "column": 0
