@@ -3,16 +3,15 @@
 		"name": "Retail Outlet",
 		"replaces": "Megamall",
 		"uniqueTo": "American Reclamation Corporation",
-		"maintenance": 2,
-		"gold": 3,
+		"maintenance": 1,
 		"culture": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Arcade Room",
 		"requiredTech": "Hab-Domes",
 		"uniques": [
-			"[+1 Gold, +1 Happiness] from [Luxury resource] tiles [in this city]",
-			"[+1 Gold] from each Trade Route"
+			"[+2 Gold, +1 Happiness] from [Luxury resource] tiles [in this city]",
+			"[+2 Gold] from each Trade Route"
 		],
 		"civilopediaText": [
 			{
@@ -25,13 +24,14 @@
 		"replaces": "National Intelligence Agency",
 		"uniqueTo": "American Reclamation Corporation",
 		"cost": 200,
-		"cityStrength": 30,
+		"cityStrength": 36,
 		"cityHealth": 30,
 		"isNationalWonder": true,
 		"uniques": [
 			"Requires a [Spy Satellite Network] in all cities",
-			"Consumes [1] [Digital Storage Space]",
-			"[+1 Gold] from all [Gold] buildings",
+			"Consumes [2] [Digital Storage Space]",
+			"[+1 Science] from all [Gold] buildings",
+                        "New [Stealth Infantry] units start with [15] Experience [in this city]"
 			"All newly-trained [Stealth Infantry] units [in this city] receive the [Spook] promotion",
 			"Cost increases by [30] per owned city"
 		],
@@ -84,16 +84,16 @@
 		"name": "Market District",
 		"replaces": "Resource Market",
 		"uniqueTo": "People's African Union",
-		"gold": 3,
+		"gold": 2,
 		"food": 1,
 		"specialistSlots": { "Merchant": 1 },
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Pioneer Depot",
 		"requiredTech": "Offworld Industries",
 		"uniques": [
-			"[+1 Gold] from [Bonus resource] tiles [in this city]",
+			"[+1 Food] from [Bonus resource] tiles [in this city]",
 			"[+1 Gold] from [Luxury resource] tiles [in this city]",
-			"[+1 Gold] from [Strategic resource] tiles [in this city]",
+			"[+2 Gold] from [Strategic resource] tiles [in this city]",
 			"[+2 Gold] <during We Love The King Day>"
 		],
 		"civilopediaText": [
@@ -108,12 +108,13 @@
 		"uniqueTo": "Franco-Iberia",
 		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "production": 5, "gold": 5 },
+		"percentStatBonus": { "gold": 10 },
 		"requiredTech": "Colony Administration",
 		"uniques": [
 			"[+3 Culture] <when not at war>",
-			"[-5]% maintenance cost for buildings [in this city]"
-		],
+			"[-5]% maintenance cost for buildings [in this city]",
+		        "When declaring friendship, both parties gain a [5]% boost to great person generation"
+                 ],
 		"civilopediaText": [
 			{
 				"text": "Envoys and dignitaries mingle with diplomats and bureaucrats in this building."
@@ -130,7 +131,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Prefab",
-			"[+1 Culture] <during We Love The King Day>",
+			"[+1 Happiness] <during We Love The King Day>",
 			"[+2 Culture] <during a Golden Age>"
 		],
 		"requiredTech": "Hab-Domes",
@@ -145,14 +146,16 @@
 		"replaces": "Congregation Space",
 		"uniqueTo": "Kavithan Protectorate",
 		"faith": 2,
+                "happiness": 1,
 		"requiredBuilding": "Memorial",
 		"maintenance": 1,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 10,
 		"requiredTech": "Hab-Domes",
 		"uniques": [
 			"Prefab",
 			"Hidden when religion is disabled",
 			"[Wounded] Units adjacent to this city heal [5] HP per turn when healing",
+                        "[+1 Food] [in this city] <in cities with at least [1] [Unemployed]>",
 			"Destroyed when the city is captured"
 		],
 		"civilopediaText": [
@@ -191,13 +194,14 @@
 		"uniqueTo": "Slavic Federation",
 		"cost": 180,
 		"maintenance": 1,
-		"production": 2,
+		"production": 3,
 		"hurryCostModifier": 25,
 		"requiredTech": "Satellite Networks",
 		"requiredBuilding": "Orbital Launch Facility",
 		"uniques": [
 			"Orbital",
-			"[+5]% [Production] [in this city]"
+			"[+5]% [Production] [in this city]",
+                        "[-15]% Culture cost of natural border growth [in this city]"
 		],
 		"civilopediaText": [
 			{
@@ -214,6 +218,7 @@
 		"production": 2,
 		"food": 2,
 		"gold": 2,
+                "faith": 2,
 		"uniques": [
 			"Orbital",
 			"Provides [2] [Digital Storage Space]"
@@ -233,9 +238,9 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
-			"New [Stealth Infantry] units start with [15] Experience [in this city]",
-			"New [Submarine] units start with [15] Experience [in this city]",
+			"New [Military] units start with [10] Experience [in this city]",
+			"New [Stealth Infantry] units start with [25] Experience [in this city]",
+			"New [Submarine] units start with [25] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredBuilding": "Colonial Patrol Station",
@@ -270,14 +275,15 @@
 	{
 		"name": "Integrated Farms",
 		"uniqueTo": "INTEGR",
-		"food": 2,
-		"cost": 40,
+		"food": 1,
+                "culture": 1,
+		"cost": 25,
 		"maintenance": 1,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 20,
 		"uniques": [
-			"[+1 Food] from [Hydroponics Field] tiles [in this city]",
+			"percentStatBonus": { "food": 5 }
 			"[+1 Food] from [Habitation Dome] tiles [in this city]",
-			"[+1 Food] per [3] population [in this city]"
+			"[+1 Food] per [3] population [in this city] <while the empire is happy>"
 		],
 		"requiredTech": "Xeno-Grafting",
 		"civilopediaText": [
@@ -290,16 +296,15 @@
 		"name": "Green Infrastructure",
 		"replaces": "Infrastructure 2.0",
 		"uniqueTo": "INTEGR",
-		"food": 2,
-		"culture": 1,
 		"specialistSlots": { "Engineer": 1 },
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "food": 5, "production": 5, "gold": 5 },
+		"percentStatBonus": { "food": 5, "production": 5 },
 		"uniques": [
-			"Provides [1] [Digital Storage Space]",
-			"[+1 Food, +1 Gold] from [Road] tiles [in this city]",
-			"[+1 Food, +2 Gold] from [Railroad] tiles [in this city]",
-			"[+2 Food] from [Great Improvement] tiles [in this city]"
+			"[+1 Food] from [Road] tiles [in this city]",
+			"[+1 Food, +1 Production] from [Railroad] tiles [in this city]",
+			"[+1 Food, +1 Gold] from [Great Improvement] tiles [in this city]",
+                        "[-10]% maintenance cost for buildings [in this city]",
+                        "[+10]% Production when constructing [Food] buildings [in this city]" 
 		],
 		"requiredTech": "Colony Administration",
 		"civilopediaText": [
@@ -313,11 +318,12 @@
 		"uniqueTo": "North Sea Alliance",
 		"cityStrength": 10,
 		"cityHealth": 50,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 20,
 		"requiredTech": "Synthetic Materials",
 		"uniques": [
 			"Must be next to [Coast]",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured",
+                        "[+1 Production] from every [Ocean]"
 		],
 		"civilopediaText": [
 			{
