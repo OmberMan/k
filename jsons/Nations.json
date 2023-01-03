@@ -88,7 +88,7 @@
 		"name": "American Reclamation Corporation",
 		"leaderName": "Suzanne Fielding",
 		"adjective": ["ARC"],
-		"startBias": ["Plains","Grassland"],
+		"startBias": ["Grassland"],
 		"preferredVictoryType":"Diplomatic",
 
 		"startIntroPart1": "Greetings, CEO Suzanne Fielding of the American Reclamation Corporation. You have risen through the corporate rank amidst the aftermath of the Great Mistake, and transformed ARC from an engineering and construction firm into an economic juggernaut. It is no surprise that the ARC can finance its own Seeding expeditions under your leadership.",
@@ -105,13 +105,13 @@
 		"tradeRequest": "We have this opportunity for you. What's your take?",
 
 		"outerColor": [4, 54, 107],
-		"innerColor": [79, 207, 231],
-		"favoredReligion": "Cosmic Clergy",
+		"innerColor": [89, 217, 241],
+		"favoredReligion": "Solar Mass",
 		"uniqueName": "Corporate Espionage",
 		"uniques": [
-			"[+25]% Production when constructing [Stealth Infantry] units [in all cities]",
-			"[+25]% Production when constructing [Spy Satellite Network] buildings [in all cities]",
-			"[+2 Gold] from all [Spy Satellite Network] buildings", "[+10]% Yield from every [Gold]", "[+1 Gold] from each Trade Route"
+			"[+20]% Production when constructing [Stealth Infantry] units [in all cities]",
+			"[+20]% Production when constructing [Spy Satellite Network] buildings [in all cities]",
+			"[+2 Gold] from all [Spy Satellite Network] buildings", "[+1 Science, +1 Gold] from every [Merchant] <starting from the [Colonization Era]>", "[+10]% Yield from every [Gold]", "[-25]% Gold cost of acquiring tiles [in all cities]"
 		],
 		"cities": [
 			"Central",
@@ -198,7 +198,7 @@
 		"favoredReligion": "Solar Mass",
 		"uniqueName": "Great Heavenly Leap",
 		"uniques": [
-			"[-20]% tile improvement construction time",
+			"[-15]% tile improvement construction time",
 			"[+20]% Production when constructing [All] wonders [in all cities]"
 		],
 		"cities": [
@@ -466,7 +466,7 @@
 		"name": "Kavithan Protectorate",
 		"leaderName": "Kavitha Thakur",
 		"adjective": ["KP"],
-		"startBias": ["Forest","Jungle","Plains","Grassland"],
+		"startBias": ["Jungle","River"],
 		"preferredVictoryType":"Diplomatic",
 
 		"startIntroPart1": "Peace be with you, Kavita Thakur of the Kavithan Protectorate. Daughter of the mystic prophet Raj Thakur, your own spiritual connection and charisma won the hearts and souls of your people. Unanimously voted to become the next leader of the Protectorate, you kept your policy of humanitarian campaigns. Through your father's legacy and the people of the Kavithan Protectorate, you finally realized his dream to spread humanity through the stars.",
@@ -483,14 +483,14 @@
 		"tradeRequest": "May we both be blessed by this agreement.",
 
 		"outerColor": [96, 16, 110],
-		"innerColor": [0, 216, 186],
+		"innerColor": [0, 266, 166],
 		"favoredReligion": "Thakurism",
 		"uniqueName": "The Prophet's Dream",
 		"uniques": [
-			"[50]% of excess happiness converted to [Faith]",
-			"[-33]% Unhappiness from [Population] [in all non-occupied cities]",
+			"[33]% of excess happiness converted to [Faith]",
+			"[-10]% Unhappiness from [Population] [in all non-occupied cities]",
 			"[+15]% Food is carried over after population increases [in all cities in which the majority religion is a major religion]",
-"Receive free [Great Visionary] when you discover [Computing]", "[+50]% maintenance costs"
+"Receive free [Great Visionary] when you discover [Synthetic Materials]", "[+50]% maintenance costs"
 		],
 		"cities": [
 			"Mandira",
@@ -574,18 +574,18 @@
 		"defeated": "Let me be remembered for what I accomplished on Earth, rather than for what you've destroyed here.",
 		"introduction": "I am Rejinaldo Leonardo Pedro Bolivar de Alencar-Araripe, Supreme Commander of Brasilia. It's a pleasure to meet you.",
 
-		"neutralHello": "Welcome. Shall we begin?",
+		"neutralHello": "Hue hue hue. Shall we begin?",
 		"hateHello": "What a disgrace...",
 
 		"tradeRequest": "These are good terms, no?",
 
 		"outerColor": [29, 55, 105],
-		"innerColor": [0, 230, 75],
+		"innerColor": [15, 230, 75],
 		"favoredReligion": "Gene Purists",
 		"uniqueName": "O Caridade",
-		"uniques": ["[+67]% to Flank Attack bonuses",
+		"uniques": ["[+50]% to Flank Attack bonuses",
 			"New [Military] units start with [30] Experience [in all cities] <during We Love The King Day>",
-			"[+15]% Strength <for [Wounded] units>"
+			"[+10]% Strength <for [Wounded] units>", "[+1 Culture] from all [Military] buildings <while the empire is happy>"
 		],
 		"cities": [
 			"Cidadela",
@@ -755,7 +755,7 @@
 
 		"declaringWar": "We are finished with you. War begins now.",
 		"attacked": "Stop your military aggression. It does not intimidate us.",
-		"defeated": "You defeated the Slavic Federation. That is not an easy thing to do. Good work.",
+		"defeated": "You defeated the Slavic Federation. That is not an easy thing to do. Good work. I wonder how well you will manage the subsequent 50 year guerilla war.",
 		"introduction": "Hello. I am General Kozlov Vadim Petrovich of the Slavic Federation.",
 
 		"neutralHello": "Hello.",
@@ -763,17 +763,17 @@
 
 		"tradeRequest": "I propose this agreement. Do you accept?",
 
-		"outerColor": [138, 25, 25],
-		"innerColor": [224, 198, 68],
+		"outerColor": [128, 25, 45],
+		"innerColor": [192, 188, 78],
 		"favoredReligion": "Posadist",
 		"uniqueName": "The People's Triumph",
 		"uniques": [
 			"Double quantity of [Titanium] produced",
 			"Double quantity of [Promethine] produced",
 			"Double quantity of [Ulframite] produced",
-"[+100]% Production when constructing [Production] buildings [in all cities]",
-			"[+20]% Production when constructing [Satellite] units [in all cities] <with [Titanium]>",
- "[+10]% Production when constructing [All] wonders [in all cities]"
+                        "[+10]% Production when constructing [Production] buildings [in all cities] <when the empire is happy>",
+			"[+10]% Production when constructing [Satellite] units [in all cities] <with [Titanium]>", "[+20]% Production when constructing [Worker] units [in all cities]",
+"No Maintenance costs for improvements in [Tundra] tiles"
 		],
 		"cities": [
 			"Khrabrost",
@@ -867,9 +867,10 @@
 		"favoredReligion": "Nomadist",
 		"uniqueName": "Our Success",
 		"uniques": [
-			"[-10]% Culture cost of natural border growth [in all cities]",
+			"[+33]% Culture cost of natural border growth [in all cities]",
 			"[+20]% Yield from every [City center]",
-			"[Gold] cost of purchasing [All] buildings [-10]%"
+                        "Each city founded increases culture cost of policies [+33]% less than normal",
+			"[Gold] cost of purchasing [All] buildings [-10]%", "May buy [Worker] units with [Food] [in all non-occupied cities]"
 		],
 		"cities": [
 			"Ard",
@@ -947,9 +948,9 @@
 		"favoredReligion": "Voidist",
 		"uniqueName": "Deniable Operations",
 		"uniques": [
-			"[+10]% Production when constructing [Stealth Infantry] units [in all cities]",
+			"[+25]% Production when constructing [Stealth Infantry] units [in all cities]",
 			"[+10]% Strength <for units with [Spook]>",
-			"City-State territory always counts as friendly territory"
+			"City-State territory always counts as friendly territory", "[+2 Science] from each Trade Route"
 			
 		],
 		"cities": [
@@ -1016,7 +1017,7 @@
 		"leaderName": "Lena Ebner",
 		"adjective": ["INTEGR"],
 		"startBias": ["Hill"],
-		"preferredVictoryType":"Diplomacy",
+		"preferredVictoryType":"Diplomatic",
 
 		"startIntroPart1": "Guten Tag, Lena Ebner of the Initiative für Nachhaltige Technologien, Effizienz, Gerechtigkeit und Rechtschaffenheit. You have seen the post-Mistake world during your youth, and its crises as a volunteer shortly after. Your activism and dedication to humanitarianism has attracted the INTEGR party, and they elected you as their leader for your 'techno-green' Transmodernism ideals. When the Inflection Point was discovered, you made sure that INTEGR's Seeding is not done hastily while being mindful of the effects it has on Earth.",
 		"startIntroPart2": "Lena, your people look to you to manifest your ideals in this new planet. Will you achieve a techno-environmental paradise in this world and Earth? Can you build a colony that stands the test of time?",
@@ -1036,8 +1037,8 @@
 		"favoredReligion": "Xenocult",
 		"uniqueName": "Green Austerity",
 		"uniques": [
-			"Allied City-States provide [Culture] equal to [+20]% of what they produce for themselves",
-			"Resting point for Influence with City-States is increased by [10]", "[+1 Production] from all [Food] buildings"
+			"Allied City-States provide [Culture] equal to [+25]% of what they produce for themselves",
+			"Resting point for Influence with City-States is increased by [15]", "[+15]% Production when constructing [Food] buildings [in all cities]", "When declaring friendship, both parties gain a [+5]% boost to great person generation"
 
 		],
 		"cities": [
@@ -1104,7 +1105,7 @@
 		"leaderName": "Duncan Hughes",
 		"adjective": ["NSA"],
 		"startBias": ["Tundra","Coastal"],
-		"preferredVictoryType":"Domination",
+		"preferredVictoryType":"Neutral",
 
 		"startIntroPart1": "Greetings, Duncan Hughes of the North Sea Alliance. While your demeanor seem ill-suited to the political life, a strong work ethic and shrewd dealmaking skills helped you survive and thrive in politics. An excellent engineer yourself, you proposed the ARKs' naval capacities - which will serve you greatly in this new world.",
 		"startIntroPart2": "Duncan, your people are ready to colonize the waters of this new world. Will you navigate them towards an industrious future? Can you build a colony that stands the test of time?",
@@ -1120,12 +1121,12 @@
 		"tradeRequest": "All right, so what do you think about this proposal, then? It'll help both of us, that's for sure.",
 
 		"outerColor": [82, 40, 15],
-		"innerColor": [87, 133, 236],
+		"innerColor": [87, 133, 186],
 		"favoredReligion": "Luddism",
 		"uniqueName": "ARKs of Humanity",
 		"uniques": [
-			"[+2 Production] in cities on [Coastal] tiles",
-			"[+10]% Strength for cities <in [Coastal] tiles>",
+			"[+15]% [Production] in cities on [Coastal] tiles",
+			"[+15]% Strength for cities <in [Coastal] tiles>",
 			"[Worker] units gain the [ARK Construction] promotion"
 		],
 		"cities": [
