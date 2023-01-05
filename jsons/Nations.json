@@ -111,7 +111,7 @@
 		"uniques": [
 			"[+20]% Production when constructing [Stealth Infantry] units [in all cities]",
 			"[+20]% Production when constructing [Spy Satellite Network] buildings [in all cities]",
-			"[+2 Gold, +1 Science] from all [Spy Satellite Network] buildings", "[+1 Science] from every [Merchant] <starting from the [Colonization era]>", "[+10]% Yield from every [Gold]", "[-25]% Gold cost of acquiring tiles [in all cities]"
+			"[+2 Gold, +1 Science] from all [Spy Satellite Network] buildings", "[+1 Science] from every [Merchant] <starting from the [Colonization era]>", "[-25]% Gold cost of acquiring tiles [in all cities]"
 		],
 		"cities": [
 			"Central",
@@ -482,15 +482,15 @@
 
 		"tradeRequest": "May we both be blessed by this agreement.",
 
-		"outerColor": [96, 16, 110],
+		"outerColor": [108, 16, 125],
 		"innerColor": [0, 266, 166],
 		"favoredReligion": "Thakurism",
 		"uniqueName": "The Prophet's Dream",
 		"uniques": [
-			"[33]% of excess happiness converted to [Faith]",
-			"[-10]% Unhappiness from [Population] [in all non-occupied cities]",
+			"[50]% of excess happiness converted to [Faith]",
+			"[-25]% Unhappiness from [Unemployed] [in all non-occupied cities]",
 			"[+15]% Food is carried over after population increases [in all cities in which the majority religion is a major religion]",
-"Receive free [Great Visionary] when you discover [Synthetic Materials]", "[+50]% maintenance costs"
+"Receive free [Great Visionary] when you discover [Synthetic Materials]", "[+50]% maintenance costs <for [Military] units>"
 		],
 		"cities": [
 			"Mandira",
@@ -1037,8 +1037,8 @@
 		"favoredReligion": "Xenocult",
 		"uniqueName": "Green Austerity",
 		"uniques": [
-			"Allied City-States provide [Culture] equal to [+25]% of what they produce for themselves",
-			"Resting point for Influence with City-States is increased by [15]", "[+15]% Production when constructing [Food] buildings [in all cities]", "When declaring friendship, both parties gain a [+5]% boost to great person generation", "[-15]% Production when constructing [Military] units [in all cities]"
+			"Allied City-States provide [Culture] equal to [+20]% of what they produce for themselves",
+			"Resting point for Influence with City-States is increased by [15]", "[+15]% Production when constructing [Food] buildings [in all non-occupied cities]", "When declaring friendship, both parties gain a [+5]% boost to great person generation", "[-15]% Production when constructing [Military] units [in all cities]"
 
 		],
 		"cities": [
@@ -1127,7 +1127,7 @@
 		"uniques": [
 			"[+15]% [Production] in cities on [Coastal] tiles",
 			"[+15]% Strength for cities <in [Coastal] tiles>",
-			"[Worker] units gain the [ARK Construction] promotion", "[+20]% [Production] [in all non-occupied cities] <when between [9] and [16] Happiness>"
+			"[Worker] units gain the [ARK Construction] promotion", "[+20]% [Production] [in all non-occupied cities] <when between [-9] and [-16] Happiness>", "[-25]% maintenance costs <for [Naval] units>"
 		],
 		"cities": [
 			"Deepcastle",
