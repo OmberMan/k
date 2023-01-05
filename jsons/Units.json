@@ -5,7 +5,7 @@
 		"replaces": "Frontier Militia",
 		"uniqueTo": "People's African Union",
 		"movement": 2,
-		"strength": 9,
+		"strength": 8,
 		"cost": 35,
 		//"upgradesTo": "Colony Rifleman",
 		"uniques": [
@@ -36,7 +36,7 @@
 		//"upgradesTo": "Colony Rifleman",
 		"uniques": [
 			"May upgrade to [Colony Rifleman] through ruins-like effects",
-			"Never appears as a Barbarian unit", "All healing effects doubled"
+			"Never appears as a Barbarian unit", "All healing effects doubled", "May capture killed [Infantry] units <with [10]% chance>", "[+33]% Strength decreasing with distance from the capital"
 		],
 		"attackSound": "shot",
 		"promotions": ["Keeper of the Oath"],
@@ -66,7 +66,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "shot",
-		"promotions": ["Urban Warfare","Blitz"],
+		"promotions": ["Urban Warfare", "Ignore Terrain Cost"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Neo-BOPE",
