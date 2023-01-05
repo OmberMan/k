@@ -111,7 +111,7 @@
 		"uniques": [
 			"[+20]% Production when constructing [Stealth Infantry] units [in all cities]",
 			"[+20]% Production when constructing [Spy Satellite Network] buildings [in all cities]",
-			"[+2 Gold] from all [Spy Satellite Network] buildings", "[+1 Science, +1 Gold] from every [Merchant] <starting from the [Colonization Era]>", "[+10]% Yield from every [Gold]", "[-25]% Gold cost of acquiring tiles [in all cities]"
+			"[+2 Gold, +1 Science] from all [Spy Satellite Network] buildings", "[+1 Science] from every [Merchant] <starting from the [Colonization Era]>", "[+10]% Yield from every [Gold]", "[-25]% Gold cost of acquiring tiles [in all cities]"
 		],
 		"cities": [
 			"Central",
@@ -1127,7 +1127,7 @@
 		"uniques": [
 			"[+15]% [Production] in cities on [Coastal] tiles",
 			"[+15]% Strength for cities <in [Coastal] tiles>",
-			"[Worker] units gain the [ARK Construction] promotion"
+			"[Worker] units gain the [ARK Construction] promotion", "[+20]% [Production] [in all non-occupied cities] <when between [9] and [16] Happiness>"
 		],
 		"cities": [
 			"Deepcastle",
@@ -1200,9 +1200,9 @@
 		"adjective": ["New Babylonian"],
 		"cityStateType": "Cultural",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "The D emon want5 tHe Bl0od 0f soLD1ers!",
+		"attacked": "(-)h we(?)(?), (!) presume y(-)u kn(-)w what y(-)u're d(-)(!)ng.",
+		"defeated": "I t   i s   o v e r . . .   P e r h a p s   n o w   I   s h a l l   h a v e   p e a c e . . .   a t   l a s t . . . . .",
 		"outerColor": [50, 50, 50],
 		"innerColor": [197, 55, 222],
 		"cities": ["New Babylon"]
@@ -1227,9 +1227,9 @@
 		"cityStateType": "Agricultural",
 		"startBias": ["Grassland"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "田んぼへようこそ、野郎。",
+		"attacked": "田んぼへようこそ、野郎。",
+		"defeated": "田んぼへようこそ、野郎。.",
 		"outerColor": [50, 50, 50],
 		"innerColor": [114, 222, 55],
 		"cities": ["Omoikane"]
@@ -1280,9 +1280,9 @@
 		"cityStateType": "Militaristic",
 		"startBias": ["Desert"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "Why wait until a snake strikes before throttling it?",
+		"attacked": "Of course. Your own hubris will destroy you before long, but we can hurry that up for you..",
+		"defeated": "Tell your leaders, they can finally rest easy with the death of some old men.",
 		"outerColor": [50, 50, 50],
 		"innerColor": [200, 55, 25],
 		"cities": ["Fort Barca"]
@@ -1330,9 +1330,9 @@
 		"adjective": ["Golden Bell"],
 		"cityStateType": "Religious",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "Mmm, very unwise...",
+		"attacked": "Mmm, very unwise...",
+		"defeated": "Mmm... very unwise...",
 		"outerColor": [50, 50, 50],
 		"innerColor": [55, 200, 222],
 		"cities": ["Golden Bell Temple"]
