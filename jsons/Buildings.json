@@ -6,12 +6,13 @@
 		"maintenance": 1,
 		"culture": 1,
 		"happiness": 2,
+                "specialistSlots": { "Merchant": 1 },
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Arcade Room",
 		"requiredTech": "Hab-Domes",
 		"uniques": [
 			"[+2 Gold, +1 Happiness] from [Luxury resource] tiles [in this city]",
-			"[+2 Gold] from each Trade Route"
+			"[+1 Gold] from each Trade Route", "[+1 Gold] per [3] population [in this city]"
 		],
 		"civilopediaText": [
 			{
@@ -23,7 +24,7 @@
 		"name": "Financial Intelligence Agency",
 		"replaces": "National Intelligence Agency",
 		"uniqueTo": "American Reclamation Corporation",
-		"cost": 200,
+		"cost": 220,
 		"cityStrength": 36,
 		"cityHealth": 30,
 		"isNationalWonder": true,
@@ -31,9 +32,9 @@
 			"Requires a [Spy Satellite Network] in all cities",
 			"Consumes [2] [Digital Storage Space]",
 			"[+1 Science] from all [Gold] buildings",
-                        "New [Stealth Infantry] units start with [15] Experience [in this city]"
+                        "New [Stealth Infantry] units start with [15] Experience [in this city]",
 			"All newly-trained [Stealth Infantry] units [in this city] receive the [Spook] promotion",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [30] per owned city", "[+5]% Production when constructing [Orbital] buildings [in this city]"
 		],
 		"requiredTech": "Military Ballistics",
 		"civilopediaText": [
@@ -201,7 +202,7 @@
 		"uniques": [
 			"Orbital",
 			"[+5]% [Production] [in this city]",
-                        "[-15]% Culture cost of natural border growth [in this city]"
+                        "[-10]% Culture cost of natural border growth [in this city]", "[relativeAmount]% Production when constructing [Orbital] buildings [in this city]"
 		],
 		"civilopediaText": [
 			{
@@ -221,7 +222,7 @@
                 "faith": 2,
 		"uniques": [
 			"Orbital",
-			"Provides [2] [Digital Storage Space]"
+			"Provides [2] [Digital Storage Space]", "Excess Food converted to Production when under construction", "Requires at least [2] population", "Unsellable"
 		],
 		"requiredTech": "Cosmonautics",
 		"requiredBuilding": "Orbital Launch Facility",
@@ -281,7 +282,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 20,
 		"uniques": [
-			"percentStatBonus": { "food": 5 }
+			"percentStatBonus": { "food": 5 }",
 			"[+1 Food] from [Habitation Dome] tiles [in this city]",
 			"[+1 Food] per [3] population [in this city] <while the empire is happy>"
 		],
@@ -304,7 +305,7 @@
 			"[+1 Food, +1 Production] from [Railroad] tiles [in this city]",
 			"[+1 Food, +1 Gold] from [Great Improvement] tiles [in this city]",
                         "[-10]% maintenance cost for buildings [in this city]",
-                        "[+10]% Production when constructing [Food] buildings [in this city]" 
+                        "[+5]% Production when constructing [Food] buildings [in this city]" 
 		],
 		"requiredTech": "Colony Administration",
 		"civilopediaText": [
