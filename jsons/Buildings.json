@@ -282,7 +282,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 20,
 		"uniques": [
-			"percentStatBonus": { "food": 5 }",
+			"percentStatBonus": { "food": 5 },
 			"[+1 Food] from [Habitation Dome] tiles [in this city]",
 			"[+1 Food] per [3] population [in this city] <while the empire is happy>"
 		],
