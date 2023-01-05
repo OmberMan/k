@@ -278,11 +278,11 @@
 		"uniqueTo": "INTEGR",
 		"food": 1,
                 "culture": 1,
-		"cost": 25,
+		"cost": 40,
 		"maintenance": 1,
+                "percentStatBonus": { "food": 5 },
 		"hurryCostModifier": 20,
 		"uniques": [
-			"percentStatBonus": { "food": 5 },
 			"[+1 Food] from [Habitation Dome] tiles [in this city]",
 			"[+1 Food] per [3] population [in this city] <while the empire is happy>"
 		],
