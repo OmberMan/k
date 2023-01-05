@@ -111,7 +111,7 @@
 		"uniques": [
 			"[+20]% Production when constructing [Stealth Infantry] units [in all cities]",
 			"[+20]% Production when constructing [Spy Satellite Network] buildings [in all cities]",
-			"[+2 Gold, +1 Science] from all [Spy Satellite Network] buildings", "[+1 Science] from every [Merchant] <starting from the [Colonization Era]>", "[+10]% Yield from every [Gold]", "[-25]% Gold cost of acquiring tiles [in all cities]"
+			"[+2 Gold, +1 Science] from all [Spy Satellite Network] buildings", "[+1 Science] from every [Merchant] <starting from the [Colonization era]>", "[+10]% Yield from every [Gold]", "[-25]% Gold cost of acquiring tiles [in all cities]"
 		],
 		"cities": [
 			"Central",
