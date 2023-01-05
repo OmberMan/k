@@ -771,7 +771,7 @@
 			
 			"Double quantity of [Promethine] produced",
 			"Double quantity of [Ulframite] produced",
-                        "[+15]% Production when constructing [Production] buildings [in all cities] <when the empire is happy>",
+                        "[+15]% Production when constructing [Production] buildings [in all cities] <while the empire is happy>",
 			"[+10]% Production when constructing [Satellite] units [in all cities] <with [Titanium]>", "[+20]% Production when constructing [Worker] units [in all cities]",
 "No Maintenance costs for improvements in [Tundra] tiles"
 		],
