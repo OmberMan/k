@@ -236,13 +236,14 @@
 		"name": "Covert Base",
 		"replaces": "Military Base",
 		"uniqueTo": "Chungsu",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"hurryCostModifier": 10,
+		"science": 1,
+                "maintenance": 1,
 		"uniques": [
 			"New [Military] units start with [10] Experience [in this city]",
 			"New [Stealth Infantry] units start with [25] Experience [in this city]",
 			"New [Submarine] units start with [25] Experience [in this city]",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured", "Cost increases by [20] per owned city" "Enables Open Borders agreements"
 		],
 		"requiredBuilding": "Colonial Patrol Station",
 		"requiredTech": "Next-Gen Armaments",
@@ -255,16 +256,18 @@
 	{
 		"name": "Underwater Complex",
 		"uniqueTo": "Chungsu",
-		"maintenance": 1,
-		"happiness": 1,
+		"maintenance": 2,
 		"science": 2,
-		"production": 1,
+                "specialistSlots": { "Scientist": 1 }, 
+		"percentStatBonus": { "production": 5 },
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Prefab",
 			"Must be next to [Coast]",
+                        "Connects trade routes over water",
+                        "Population loss from nuclear attacks [-33]% [in this city]",
 			"[+1 Science] <after discovering [Info Networks]>",
-			"[+1 Culture] <after discovering [Net Culture]>"
+			"[+1 Culture] <after discovering [Net Culture]>", "Science gained from research agreements [+20]% <when not at war>"
 		],
 		"requiredTech": "Colony Administration",
 		"civilopediaText": [
