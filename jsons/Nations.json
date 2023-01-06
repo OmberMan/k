@@ -293,9 +293,9 @@
 		"favoredReligion": "Astral Pantheon",
 		"uniqueName": "African Abundance",
 		"uniques": [
-			"[+10]% [Food] [in all cities] <while the empire is happy>",
-			"[+1 Science] from every [Scientist]",
-			"[+1 Gold] from every [Merchant]",
+			"[+15]% [Food] [in all cities] <while the empire is happy>",
+			"[+1 Food] from every [Scientist]",
+			"[+1 Food] from every [Merchant]",
 			"[+1 Culture] from every [Influencer]",
 			"[+1 Production] from every [Engineer]"
 		],
@@ -488,8 +488,8 @@
 		"uniqueName": "The Prophet's Dream",
 		"uniques": [
 			"[50]% of excess happiness converted to [Faith]",
-			"[-25]% Unhappiness from [Unemployed] [in all non-occupied cities]",
-			"[+15]% Food is carried over after population increases [in all cities in which the majority religion is a major religion]",
+			"[+1 Happiness, +2 Faith] in cities on [River] tiles",
+			"[+20]% Food is carried over after population increases [in all cities in which the majority religion is a major religion]",
 "Receive free [Great Visionary] when you discover [Synthetic Materials]", "[+50]% maintenance costs <for [Military] units>"
 		],
 		"cities": [
@@ -867,7 +867,7 @@
 		"favoredReligion": "Nomadist",
 		"uniqueName": "Our Success",
 		"uniques": [
-			"[+33]% Culture cost of natural border growth [in all cities]",
+			"[+50]% Culture cost of natural border growth [in all cities]",
 			"[+20]% Yield from every [City center]",
                         "Each city founded increases culture cost of policies [+33]% less than normal",
 			"[Gold] cost of purchasing [All] buildings [-10]%", "May buy [Worker] units with [Food] [in all non-occupied cities]"
@@ -927,8 +927,8 @@
 		"name": "Chungsu",
 		"leaderName": "Han Jae-Moon",
 		"adjective": ["Chungsu"],
-		"startBias": ["Tundra","Coastal"],
-		"preferredVictoryType":"Domination",
+		"startBias": ["Avoid Desert","Coastal"],
+		"preferredVictoryType":"Diplomatic",
 
 		"startIntroPart1": "Annyeonghaseo, Director Han Jae Moon of Chungsu. Your intellect and social aptitude shone from a young age, and you were able to dance through the political minefield that was post-Mistake East Asia. Unanimously elected as leader shortly before landing, your wisdom and knowledge is valued and respected by your fellow colonists.",
 		"startIntroPart2": "Director Han, your agents are already in position in the shadows. Will you gain control behind the colonies' curtains? Can you build a colony that stands the test of time?",
@@ -939,18 +939,18 @@
 		"introduction": "Just as we expected. Greetings, waegukin. The pleasure is ours.",
 
 		"neutralHello": "We were expecting you.",
-		"hateHello": "Hahaha, waegukin, come to beg?",
+		"hateHello": "Hahaha, waegukin, come to beg? Piss your pants? Maybe shit and cum?",
 
 		"tradeRequest": "We assembled this agreement for your eyes only. What are your thoughts?",
 
-		"outerColor": [0, 0, 51],
-		"innerColor": [0, 207, 26],
+		"outerColor": [0, 4, 51],
+		"innerColor": [0, 204, 26],
 		"favoredReligion": "Voidist",
 		"uniqueName": "Deniable Operations",
 		"uniques": [
-			"[+25]% Production when constructing [Stealth Infantry] units [in all cities]",
-			"[+10]% Strength <for units with [Spook]>",
-			"City-State territory always counts as friendly territory", "[+2 Science] from each Trade Route"
+			"[+25]% Production when constructing [Submarine] units [in all cities]", "[+20]% Strength <when attacking> <when fighting units from a Civilization with more Cities than you>"
+			"[+10]% Strength <for units with [Spook]>", "Militaristic City-States grant units [3] times as fast when you are at war with a common nation", "Unhappiness from number of Cities doubled <when not at war>", "[+1] Sight <for [Naval] units> <when not at war>",
+			"City-State territory always counts as friendly territory", "[+1 Science] from each Trade Route"
 			
 		],
 		"cities": [
