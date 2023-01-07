@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Peacekeeper Training",
-		"uniques": ["Can construct [Emplacement] <if it hasn't used other actions yet>"],
+		"uniques": ["Can construct [Emplacement] <if it hasn't used other actions yet>", "[+15]% Strength" <when fighting in [Friendly Land] tiles>"],
 		"row": 119,
         "column": 0
 	},
