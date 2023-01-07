@@ -273,7 +273,7 @@
 		"leaderName": "Samatar Jama Barre",
 		"adjective": ["African Union"],
 		"startBias": ["Plains","Grassland","Desert"],
-		"preferredVictoryType":"Domination",
+		"preferredVictoryType":"Neutral",
 
 		"startIntroPart1": "So Dhowow, Samatar Jama Barre of the People's African Union. You were once a mere militia-men of the PAU - but you rose through the ranks through your skills in diplomacy. Your troops are loyal to you, and they view you as their 'great uncle' - but your most memorable achievement was brokering with the PAC and ARC to advance the PAU. As the most capable candidate, you were elected as the colonial governor for the PAU's Seeding program.",
 		"startIntroPart2": "Kubwa Mjomba Samatar, your people look to you to bring Africa into the stars. Will you create a prosperous colony? Can you build a colony that stands the test of time?",
@@ -288,16 +288,16 @@
 
 		"tradeRequest": "Tell me, friend, is this not a bargain?",
 
-		"outerColor": [80, 21, 8],
+		"outerColor": [108, 21, 58],
 		"innerColor": [250, 106, 20],
 		"favoredReligion": "Astral Pantheon",
 		"uniqueName": "African Abundance",
 		"uniques": [
-			"[+15]% [Food] [in all cities] <while the empire is happy>",
+			"[+15]% growth [in all cities] <while the empire is happy>",
 			"[+1 Food] from every [Scientist]",
-			"[+1 Food] from every [Merchant]",
+	
 			"[+1 Culture] from every [Influencer]",
-			"[+1 Production] from every [Engineer]"
+			"[+1 Production] from every [Engineer]", "[+1 Happiness] per [4] social policies adopted"
 		],
 		"cities": [
 			"Magan",
@@ -950,7 +950,7 @@
 		"uniques": [
 			"[+25]% Production when constructing [Submarine] units [in all cities]", "[+20]% Strength <when attacking> <when fighting units from a Civilization with more Cities than you>"
 			"[+10]% Strength <for units with [Spook]>", "Militaristic City-States grant units [3] times as fast when you are at war with a common nation", "Unhappiness from number of Cities doubled <when not at war>", "[+1] Sight <for [Naval] units>",
-			"City-State territory always counts as friendly territory", "[+1 Science] from each Trade Route"
+			"[+1 Science] from each Trade Route"
 			
 		],
 		"cities": [
