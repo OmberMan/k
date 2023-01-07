@@ -243,7 +243,7 @@
 			"New [Military] units start with [10] Experience [in this city]",
 			"New [Stealth Infantry] units start with [25] Experience [in this city]",
 			"New [Submarine] units start with [25] Experience [in this city]",
-			"Destroyed when the city is captured", "Cost increases by [20] per owned city", "Enables Open Borders agreements"
+			"Destroyed when the city is captured", "Enables Open Borders agreements"
 		],
 		"requiredBuilding": "Colonial Patrol Station",
 		"requiredTech": "Next-Gen Armaments",
@@ -267,7 +267,7 @@
                         "Connects trade routes over water",
                         "Population loss from nuclear attacks [-33]% [in this city]",
 			"[+1 Science] <after discovering [Info Networks]>",
-			"[+1 Culture] <after discovering [Net Culture]>", "Science gained from research agreements [+20]% <when not at war>"
+			"[+1 Culture] <after discovering [Net Culture]>", "Science gained from research agreements [+25]% <when not at war>"
 		],
 		"requiredTech": "Colony Administration",
 		"civilopediaText": [
