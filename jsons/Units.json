@@ -36,7 +36,7 @@
 		//"upgradesTo": "Colony Rifleman",
 		"uniques": [
 			"May upgrade to [Colony Rifleman] through ruins-like effects",
-			"Never appears as a Barbarian unit", "All healing effects doubled", "May capture killed [Infantry] units <with [10]% chance>", "[+33]% Strength decreasing with distance from the capital"
+			"Never appears as a Barbarian unit", "May capture killed [Infantry] units <with [10]% chance>", "[+33]% Strength decreasing with distance from the capital"
 		],
 		"attackSound": "shot",
 		"promotions": ["Keeper of the Oath"],
@@ -139,7 +139,7 @@
 			"Consumes [2] [Ulframite]",
 			"Never appears as a Barbarian unit"
 		],
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 15,
 		"attackSound": "tankshot",
 		"civilopediaText": [
 			{
