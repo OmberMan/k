@@ -11,7 +11,7 @@
 		"requiredBuilding": "Arcade Room",
 		"requiredTech": "Hab-Domes",
 		"uniques": [
-			"[+2 Gold, +1 Happiness] from [Luxury resource] tiles [in this city]",
+			"[+1 Gold, +1 Happiness] from [Luxury resource] tiles [in this city]",
 			"[+1 Gold] from each Trade Route", "[+1 Gold] per [3] population [in this city]"
 		],
 		"civilopediaText": [
@@ -67,13 +67,14 @@
 	{
 		"name": "Urban Commune",
 		"replaces": "Rec Area",
-		"uniqueTo": "Pan-Asian Cooperative",
+		"uniqueTo": "Xingxing Fahzan Bu",
 		"maintenance": 1,
 		"food": 1,
 		"production": 1,
-		"happiness": 2,
+		"happiness": 1,
+                "cost": 180,
 		"hurryCostModifier": 25,
-		"uniques": ["Prefab"],
+		"uniques": ["Prefab", [-5]% Unhappiness from [Population] [in this city]"],
 		"requiredTech": "Hab-Domes",
 		"civilopediaText": [
 			{
@@ -85,16 +86,16 @@
 		"name": "Market District",
 		"replaces": "Resource Market",
 		"uniqueTo": "People's African Union",
-		"gold": 2,
-		"food": 1,
+		"gold": 3,
+		"culture": 1,
 		"specialistSlots": { "Merchant": 1 },
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Pioneer Depot",
 		"requiredTech": "Offworld Industries",
 		"uniques": [
 			"[+1 Food] from [Bonus resource] tiles [in this city]",
-			"[+1 Gold] from [Luxury resource] tiles [in this city]",
-			"[+2 Gold] from [Strategic resource] tiles [in this city]",
+			"[+1 Culture] from [Luxury resource] tiles [in this city]",
+			"[+1 Gold] from [Strategic resource] tiles [in this city]",
 			"[+2 Gold] <during We Love The King Day>"
 		],
 		"civilopediaText": [
@@ -264,7 +265,7 @@
 		"uniques": [
 			"Prefab",
 			"Must be next to [Coast]",
-                        "Connects trade routes over water",
+                        
                         "Population loss from nuclear attacks [-33]% [in this city]",
 			"[+1 Science] <after discovering [Info Networks]>",
 			"[+1 Culture] <after discovering [Net Culture]>", "Science gained from research agreements [+25]% <when not at war>"
