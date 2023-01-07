@@ -943,13 +943,13 @@
 
 		"tradeRequest": "We assembled this agreement for your eyes only. What are your thoughts?",
 
-		"outerColor": [0, 4, 51],
-		"innerColor": [0, 204, 26],
+		"outerColor": [0, 0, 51],
+		"innerColor": [4, 204, 30],
 		"favoredReligion": "Voidist",
 		"uniqueName": "Deniable Operations",
 		"uniques": [
 			"[+25]% Production when constructing [Submarine] units [in all cities]", "[+20]% Strength <when attacking> <when fighting units from a Civilization with more Cities than you>"
-			"[+10]% Strength <for units with [Spook]>", "Militaristic City-States grant units [3] times as fast when you are at war with a common nation", "Unhappiness from number of Cities doubled <when not at war>", "[+1] Sight <for [Naval] units> <when not at war>",
+			"[+10]% Strength <for units with [Spook]>", "Militaristic City-States grant units [3] times as fast when you are at war with a common nation", "Unhappiness from number of Cities doubled <when not at war>", "[+1] Sight <for [Naval] units>",
 			"City-State territory always counts as friendly territory", "[+1 Science] from each Trade Route"
 			
 		],
@@ -1127,7 +1127,7 @@
 		"uniques": [
 			"[+15]% [Production] in cities on [Coastal] tiles",
 			"[+15]% Strength for cities <in [Coastal] tiles>",
-			"[Worker] units gain the [ARK Construction] promotion", "[+20]% [Production] [in all non-occupied cities] <when between [-9] and [-16] Happiness>", "[-25]% maintenance costs <for [Naval] units>", "New [baseUnitFilter] units start with [20] Experience [in all cities] <during a Golden Age>"
+			"[Worker] units gain the [ARK Construction] promotion", "[+20]% [Production] [in all non-occupied cities] <when between [-9] and [-16] Happiness>", "[-25]% maintenance costs <for [Naval] units>", "New [Naval] units start with [20] Experience [in all cities] <during a Golden Age>"
 		],
 		"cities": [
 			"Deepcastle",
