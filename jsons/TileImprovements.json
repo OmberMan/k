@@ -12,7 +12,7 @@
 		"techRequired": "Old Earth Knowledge",
 		"uniques": [
 			//"Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>", "[+1 Food] from [Algae] tiles", "[+1 Food] from [Seasilk] tiles",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>"
 		],
 		"shortcutKey": "F",
