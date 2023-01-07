@@ -3,7 +3,7 @@
 		"name": "Retail Outlet",
 		"replaces": "Megamall",
 		"uniqueTo": "American Reclamation Corporation",
-		"maintenance": 1,
+		"maintenance": 2,
 		"culture": 1,
 		"happiness": 2,
                 "specialistSlots": { "Merchant": 1 },
@@ -74,7 +74,7 @@
 		"happiness": 1,
                 "cost": 180,
 		"hurryCostModifier": 25,
-		"uniques": ["Prefab", [-5]% Unhappiness from [Population] [in this city]"],
+		"uniques": ["Prefab", "[-5]% Unhappiness from [Population] [in this city]"],
 		"requiredTech": "Hab-Domes",
 		"civilopediaText": [
 			{
