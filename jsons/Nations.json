@@ -1127,7 +1127,7 @@
 		"uniques": [
 			"[+15]% [Production] in cities on [Coastal] tiles",
 			"[+15]% Strength for cities <in [Coastal] tiles>",
-			"[Worker] units gain the [ARK Construction] promotion", "[+20]% [Production] [in all non-occupied cities] <when between [-9] and [-16] Happiness>", "[-25]% maintenance costs <for [Naval] units>"
+			"[Worker] units gain the [ARK Construction] promotion", "[+20]% [Production] [in all non-occupied cities] <when between [-9] and [-16] Happiness>", "[-25]% maintenance costs <for [Naval] units>", "New [baseUnitFilter] units start with [20] Experience [in all cities] <during a Golden Age>"
 		],
 		"cities": [
 			"Deepcastle",
