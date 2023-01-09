@@ -67,8 +67,8 @@
 	{
 		"name": "Urban Commune",
 		"replaces": "Rec Area",
-		"uniqueTo": "Xingxing Fahzan Bu",
-		"maintenance": 1,
+		"uniqueTo": "Xingxing Fazhan Bu",
+		"maintenance": 0,
 		"food": 1,
 		"production": 1,
 		"happiness": 1,
@@ -126,7 +126,7 @@
 	{
 		"name": "Cultural Square",
 		"replaces": "Rec Area",
-		"uniqueTo": "Franco-Iberia",
+		"uniqueTo": "Thespiaux Medianet",
 		"maintenance": 1,
 		"culture": 1,
 		"happiness": 2,
