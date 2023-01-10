@@ -1,0 +1,94 @@
+[
+       {
+		"name": "Symbiosis Ideology",
+		"era": "Halcyon era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 10,
+			"Diplomatic": 70,
+			"Domination": 40,
+			"Scientific": 20
+        	},
+		"uniques": [
+			"[+20]% Food is carried over after population increases [in all cities]",
+			"Only available <before adopting [Purification Ideology]>",
+			"Only available <before adopting [Radiant Ideology]>"
+		],
+		"policies": [
+			{
+				"name": "Eco Harmony",
+				"uniques": [
+					"[+1 Food, +1 Production] from [Grassland] tiles [in all cities]",
+					"[+1 Food, +1 Production] from [Plains] tiles [in all cities]",
+					"[+1 Food, +1 Production] from [Mycelium] tiles [in all cities]",
+					"[+1 Food, +1 Production] from [Forest] tiles [in all cities]",
+					"[+1 Food, +1 Production] from [Jungle] tiles [in all cities]",
+					"[+1 Food, +1 Production] from [Oasis] tiles [in all cities]",
+					"[+1 Food, +1 Production] from [Polar Oasis] tiles [in all cities]"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Healing Nature",
+				"uniques": [
+					"[+25]% Strength <in [Miasma] tiles> <when defending>", "[+10]% Strength <in [Friendly Land] tiles>",
+					"All healing effects doubled <in [Miasma] tiles>",
+					"All healing effects doubled <with [1] to [6] neighboring [Miasma] tiles>"
+				],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Xeno-Cooperation",
+				"uniques": ["Unlocks building the Xeno Sanctuary improvement"],
+				"requires": ["Eco Harmony"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Biodiversity",
+				"uniques": [
+					/*
+					"[+1 Happiness] from [Tubers] tiles [in all cities]",
+					"[+1 Happiness] from [Algae] tiles [in all cities]",
+					"[+1 Happiness] from [Seasilk] tiles [in all cities]",
+					"[+1 Happiness] from [Plankton] tiles [in all cities]",
+					"[+1 Happiness] from [Fungi Pods] tiles [in all cities]",
+					"[+1 Happiness] from [Exotic Fruits] tiles [in all cities]",
+					"[+1 Happiness] from [Chitin] tiles [in all cities]",
+					"[+1 Happiness] from [Dairy Aphid] tiles [in all cities]",
+					"[+1 Happiness] from [Sea Slivers] tiles [in all cities]",
+					"[+1 Happiness] from [Rockbud] tiles [in all cities]",
+					"[+1 Happiness] from [Spice] tiles [in all cities]",
+					"[+1 Happiness] from [Stimulants] tiles [in all cities]",
+					"[+1 Happiness] from [Hydromielin] tiles [in all cities]",
+					"[+1 Happiness] from [Ruby Cactus] tiles [in all cities]",
+					"[+1 Happiness] from [Snuffets] tiles [in all cities]",
+					"[+1 Happiness] from [Sindrian Lobster] tiles [in all cities]",
+					"[+1 Happiness] from [Flowers of Silence] tiles [in all cities]",
+					"[+1 Happiness] from [Vitamass] tiles [in all cities]"
+					*/
+					"[+1 Happiness] from [Organic] tiles [in all cities]"
+				],
+				"requires": ["Xeno-Cooperation"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Regrowth",
+				"uniques": [
+					"[+25]% growth [in all cities] <while the empire is happy>"
+				],
+				"requires": ["Biodiversity", "Healing Nature"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Symbiosis Ideology Complete", //rename into Apex
+				"uniques": [
+					"[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture, +2 Faith] [in all cities]", "[+25]% XP gained from combat"]
+			}
+		]
+	}
+]
