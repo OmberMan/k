@@ -85,8 +85,8 @@
 		"unitType": "Armored",
 		"uniqueTo": "Brasilia",
 		"movement": 4,
-		"strength": 35,
-		"cost": 125,
+		"strength": 32,
+		"cost": 135,
 		"requiredTech": "Next-Gen Armaments",
 		"requiredResource": "Promethine",
 		//"upgradesTo": "Colonial Armor",
@@ -154,6 +154,36 @@
 			}
 		]
 	},
+{
+		"name": "T-Series",
+		//"replaces": "Colony Rifleman",
+		"uniqueTo": "Skye Robotics",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 16,
+		"cost": 125,
+		"requiredTech": "Next-Gen Armaments",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit", "Earn [10]% of the damage done to [All] units as [Science]", "Damage is ignored when determining unit Strength"
+                         
+		],
+		"promotions": ["T-Series Unit"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/T-Series",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Semi-autonomous combat droids, their humanoid shape is designed to instill fear toward enemies."
+			}
+		]
+            },
 	{
 		"name": "Jabal Drop Mecha",
 		"unitType": "Close Range Mech",
