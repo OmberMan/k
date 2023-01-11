@@ -57,7 +57,7 @@
 		"replaces": "Colony Rifleman",
 		"uniqueTo": "Brasilia",
 		"movement": 2,
-		"strength": 16,
+		"strength": 15,
 		"cost": 80,
 		"requiredTech": "Next-Gen Armaments",
 		//"upgradesTo": "Exoframe Soldier",
@@ -259,6 +259,8 @@
 			{
 				"text": "Pesky, territorial aerial predators that possess a danger to units passing through their area."
 			},
+                ]
+       },
 {
 		"name": "Tame Bugwolf",
 		"unitType": "Xeno Melee Land",
