@@ -184,7 +184,170 @@
 			}
 		]
             },
+{
+		"name": "Bugwolf",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 7,
+		"cost": 20,
+		"obsoleteTech": "Next-Gen Armaments",
+		"uniques": ["Xeno", "[-33]% Strength <vs cities>", "[+15]% Strength <vs [infantry] units>", "[+15]% Strength <when adjacent to a [Xeno] unit>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBite",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Bugwolf",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A pack-hunting, vicious xenofauna commonly found on this planet."
+			}
+		]
+	},
 	{
+		"name": "Stalker",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 9,
+		"cost": 40,
+		"requiredTech": "Frontier Armaments",
+		"obsoleteTech": "Composite Armor",
+		"uniques": ["Xeno", "[+33]% Strength <vs [Armored] units>", "Ignores Zone of Control"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBite",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Stalker",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This predator hunts by using its sharp beak and front limbs to tear apart prey. It can even pierce metal."
+			}
+		]
+	},
+{
+		"name": "Darter",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"obsoleteTech": "Next-Gen Armaments",
+		"uniques": [
+			"Xeno",
+			"[5]% chance to intercept air attacks",
+			"[-66]% Strength <vs cities>", "[+50]% Strength <when attacking>"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBuzz",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Darter",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Pesky, territorial aerial predators that possess a danger to units passing through their area."
+			},
+{
+		"name": "Tame Bugwolf",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Xenoidid Empire",
+		"movement": 2,
+		"strength": 7,
+		"cost": 20,
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Xenoid Barracks]>",
+			"Never appears as a Barbarian unit", "[+15]% Strength <vs [Infantry] units>", "[+15]% <when adjacent to a [Tame Xeno] unit>"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBite",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tame Bugwolf",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A pack-hunting, vicious xenofauna commonly found on this planet. Thankfully it's been tamed."
+			}
+		]
+	},
+	{
+		"name": "Tame Stalker",
+		"unitType": "Xeno Melee Land",
+		"uniqueTo": "Xenoidid Empire",
+		"movement": 3,
+		"strength": 9,
+		"cost": 40,
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"[+33]% Strength <vs [Armored] units>",
+			"Only available <in cities with a [Xenoid Barracks]>", 
+			"Never appears as a Barbarian unit", "Ignores Zone of Control"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBite",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tame Stalker",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This predator hunts by using its sharp beak and front limbs to tear apart prey. It can even pierce metal. Thankfully it's been tamed."
+			}
+		]
+	},
+	{
+		"name": "Tame Darter",
+		"unitType": "Xeno Air",
+		"uniqueTo": "Xenoidid Empire",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"uniques": [
+			"Xeno",
+			"Tame Xeno",
+			"[5]% chance to intercept air attacks",
+			"[-66]% Strength <vs cities>",
+			"Only available <in cities with a [Xenoid Barracks]>", "[+50]% Strength <when attacking>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "MonsterBuzz",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tame Darter",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Pesky, territorial aerial predators that possess a danger to units passing through their area. Thankfully it's been tamed."
+			}
+		]
+	},	
+    {
 		"name": "Jabal Drop Mecha",
 		"unitType": "Close Range Mech",
 		"uniqueTo": "Al Falah",
