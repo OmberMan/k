@@ -215,10 +215,11 @@
 		"name": "Orbital Habitat",
 		"uniqueTo": "Al Falah",
 		"cost": 200,
-		"science": 2,
+		"specialistSlots": { "Engineer": 1, "Influencer": 1, "Scientist": 1, "Merchant": 1},
+                "science": 2,
 		"culture": 2,
 		"production": 2,
-		"food": 2,
+		"food": -5,
 		"gold": 2,
                 "faith": 2,
 		"uniques": [
