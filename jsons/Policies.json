@@ -127,7 +127,7 @@
 			},
 			{
 				"name": "Right to Expression",
-				"uniques": ["[+2 Culture] per [4] population [in all cities]", "[+1 Happiness] <in cities with a [Virtual Culture Space]>"],
+				"uniques": ["[+2 Culture] per [4] population [in all cities]", "[+1 Happiness] <in cities with a [Rec Area]>"],
 				"requires": ["Cultural Icons", "Market of Ideas"],
 				"row": 2,
 				"column": 3
