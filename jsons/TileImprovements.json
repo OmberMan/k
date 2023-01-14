@@ -47,6 +47,7 @@
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>",
 			"Pillaging this improvement yields approximately [+3 Food, +2 Gold]"
 		],
+     },
      {
 		"name": "Aquaponics Area",
 		"uniqueTo": "Polystralia",
