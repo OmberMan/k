@@ -177,7 +177,7 @@
 		"name": "Pan-Asian Cooperative",
 		"leaderName": "Daoming Sochua",
 		"adjective": ["PAC"],
-		"startBias": ["Plains","Grassland"],
+		"startBias": ["Plains"],
 		"preferredVictoryType":"Cultural",
 
 		"startIntroPart1": "Ni Hao, Secretary-Architect Daoming Sochua of the Pan-Asian Collective. Your genius has brought you to the forefront of the PAC scientific community and brought it out of the chaos of the Great Mistake. Your achievements are numerous both as a scientist and an administrator. It is no surprise when the PAC decides to send a colony ship as part of the Seeding, you volunteered to be mission leader to ensure its success.",
@@ -272,7 +272,7 @@
 		"name": "People's African Union",
 		"leaderName": "Samatar Jama Barre",
 		"adjective": ["African Union"],
-		"startBias": ["Plains","Grassland","Desert"],
+		"startBias": ["Avoid Tundra"],
 		"preferredVictoryType":"Neutral",
 
 		"startIntroPart1": "So Dhowow, Samatar Jama Barre of the People's African Union. You were once a mere militia-men of the PAU - but you rose through the ranks through your skills in diplomacy. Your troops are loyal to you, and they view you as their 'great uncle' - but your most memorable achievement was brokering with the PAC and ARC to advance the PAU. As the most capable candidate, you were elected as the colonial governor for the PAU's Seeding program.",
@@ -371,7 +371,7 @@
 		"name": "Franco-Iberia",
 		"leaderName": "Élodie",
 		"adjective": ["Franco-Iberian"],
-		"startBias": ["Plains","Grassland","Desert"],
+		"startBias": ["Plains"],
 		"preferredVictoryType":"Cultural",
 
 		"startIntroPart1": "Bonjour, Élodie of the Franco-Iberian Union. You were steeped in high culture since your early life, your charisma and wit propelled you into the political elite of the Franco-Iberian Union. Using the media to sway people's opinion, you proposed to create a Western cultural archive - in a new offworld colony. Thus having your cultural heritage secured, you soon joined the others in the race to the stars.",
@@ -867,9 +867,9 @@
 		"favoredReligion": "Nomadist",
 		"uniqueName": "Our Success",
 		"uniques": [
-			"[+100]% Culture cost of natural border growth [in all cities]", "[+1 Production] per [3] population [in capital]",
-			"[+100]% Yield from every [City center]", "[+50]% Food is carried over after population increases [in capital]", "[-50]% Unhappiness from [Population] [in capital]", "Unhappiness from number of Cities doubled", "[+200]% tile improvement construction time", "[+20]% maintenance costs <for [All] units>", "[-50]% Yield from every [All]",
-                        "Each city founded increases culture cost of policies [-50]% less than normal", "[-50]% [Gold] from Trade Routes", "[-15]% Culture cost of adopting new Policies", "[+20]% Production towards any buildings that already exist in the Capital",
+			"[+50]% Culture cost of natural border growth [in all cities]",
+			"[+50]% Yield from every [City center]", "[+50]% Food is carried over after population increases [in capital]", "[-50]% Unhappiness from [Population] [in capital]", "Unhappiness from number of Cities doubled", "[+50]% tile improvement construction time", [-50]% Yield from every [unimproved ]
+                        "Each city founded increases culture cost of policies [-50]% less than normal", "[-10]% Culture cost of adopting new Policies", "[+25]% Production towards any buildings that already exist in the Capital",
 			"[Gold] cost of purchasing [All] buildings [-10]%", "May buy [Civilian] units with [Food] [in all non-occupied cities]"
 		],
 		"cities": [
@@ -1038,7 +1038,7 @@
 		"uniqueName": "Green Austerity",
 		"uniques": [
 			"Allied City-States provide [Culture] equal to [+20]% of what they produce for themselves",
-			"Resting point for Influence with City-States is increased by [15]", "[+15]% Production when constructing [Food] buildings [in all non-occupied cities]", "When declaring friendship, both parties gain a [+5]% boost to great person generation", "[-15]% Production when constructing [Military] units [in all cities]"
+			"Resting point for Influence with City-States is increased by [15]", "[+20]% Production when constructing [Food] buildings [in all non-occupied cities]", "When declaring friendship, both parties gain a [+5]% boost to great person generation", "[-20]% Production when constructing [Military] units [in all cities]"
 
 		],
 		"cities": [
@@ -1127,7 +1127,7 @@
 		"uniques": [
 			"[+10]% [Production] in cities on [Coastal] tiles",
 			"[+15]% Strength for cities <in [Coastal] tiles>",
-			"[Worker] units gain the [ARK Construction] promotion", "[+20]% [Production] [in all non-occupied cities] <when between [-9] and [-16] Happiness>", "[-25]% maintenance costs <for [Naval] units>", "New [Naval] units start with [15] Experience [in all cities] <during a Golden Age>"
+			"[Worker] units gain the [ARK Construction] promotion", "[+20]% [Production] [in all non-occupied cities] <when between [-9] and [-16] Happiness>", "[-25]% maintenance costs <for [Water] units>", "New [Water] units start with [15] Experience [in all cities] <during a Golden Age>"
 		],
 		"cities": [
 			"Deepcastle",
