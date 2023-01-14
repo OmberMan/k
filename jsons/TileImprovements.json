@@ -1,5 +1,53 @@
 [
 	{
+		"name": "Hydroponics Field",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Flood plains",
+		],
+		"food": 1,
+		"turnsToBuild": 5,
+		"techRequired": "Old Earth Knowledge",
+		"uniques": [
+			"Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Genetics]>",
+			"Pillaging this improvement yields approximately [+2 Food]"
+		],
+		"shortcutKey": "F",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Hydroponics Field",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Rows upon rows of basic hydroponics, growing staple foods of old Earth"
+			}
+		]
+	},
+	{
+		"name": "Agri Farm",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Flood plains",
+			"Mycelium"
+		],
+		"food": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Xenoagriculture",
+		"uniques": [
+			"Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>",
+			"Pillaging this improvement yields approximately [+3 Food, +2 Gold]"
+		],
+     {
 		"name": "Aquaponics Area",
 		"uniqueTo": "Polystralia",
 		"terrainsCanBeBuiltOn": [
@@ -29,6 +77,21 @@
 			}
 		]
 	},
+	{
+		"name": "Mining Camp",
+		"uniqueTo": "Belta V Offworld Mining",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+                "gold": 1,
+		"turnsToBuild": 5,
+		"techRequired": "Xenogeology",
+		"uniques": [
+			"Gives a defensive bonus of [10]%",
+			"[+1 Production] <after discovering [Offworld Industries]>",
+			"[+1 Production] <after discovering [Crust Fracking]>",
+			"Pillaging this improvement yields approximately [+3 Production]"
+		],
+        },
 	{
 		"name": "ARK District",
 		"uniqueTo": "North Sea Alliance",
