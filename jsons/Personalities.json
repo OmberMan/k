@@ -24,14 +24,14 @@
         {
                 "name": "Belter Corpo-Union",
                 "preferredVictoryType": "Domination",
-                "culture": 4,
+                "culture": 2,
                 "faith": 4,
-                "food": 5,
-                "gold": 7,
-                "happiness": 5,
-                "production": 8,
-                "science": 5,
-                "military": 7,
+                "food": 3,
+                "gold": 9,
+                "happiness": 1,
+                "production": 9,
+                "science": 3,
+                "military": 8,
                 "priorities": {
                         "Pioneer Spirit": 30,
                         "Diversity": 20,
@@ -254,13 +254,13 @@
                 "name": "Human-purist Empire",
                 "preferredVictoryType": "Domination",
                 "culture": 7,
-                "faith": 6,
+                "faith": 3,
                 "food": 6,
-                "gold": 5,
-                "happiness": 3,
-                "production": 5,
-                "science": 3,
-                "military": 8,
+                "gold": 7,
+                "happiness": 8,
+                "production": 9,
+                "science": 2,
+                "military": 10,
                 "priorities": {
                         "Consolidation": 20,
                         "Tenacity": 20,
@@ -268,7 +268,7 @@
                         "Prestige": 10,
                         "Purification Ideology": 30
                 },
-                "warMongering": 8,
+                "warMongering": 9,
                 "civilopediaText": [
                         {"text": "This faction favors heavily towards humanity's natural supremacy, and would not hesitate to use force against those who disagree."}
                 ]
@@ -277,11 +277,11 @@
                 "name": "Protective Defense Bureau",
                 "preferredVictoryType": "Diplomatic",
                 "culture": 6,
-                "faith": 3,
-                "food": 6,
-                "gold": 4,
-                "happiness": 7,
-                "production": 7,
+                "faith": 2,
+                "food": 7,
+                "gold": 3,
+                "happiness": 4,
+                "production": 6,
                 "science": 5,
                 "military": 8,
                 "priorities": {
@@ -293,7 +293,7 @@
                         "Symbiosis Ideology": 20,
                         "Radiant Ideology": 20
                 },
-                "warMongering": 3,
+                "warMongering": 2,
                 "civilopediaText": [
                         {"text": "This defense-oriented military faction tends to be protective towards those who are weaker than them, and use their military as a means to diplomacy."}
                 ]
@@ -301,14 +301,14 @@
         {
                 "name": "Cultural Raiders",
                 "preferredVictoryType": "Cultural",
-                "culture": 8,
-                "faith": 7,
-                "food": 6,
-                "gold": 5,
-                "happiness": 6,
+                "culture": 10,
+                "faith": 6,
+                "food": 3,
+                "gold": 7,
+                "happiness": 8,
                 "production": 4,
-                "science": 4,
-                "military": 6,
+                "science": 2,
+                "military": 7,
                 "priorities": {
                         "Diversity": 20,
                         "Tenacity": 30,
@@ -412,20 +412,20 @@
         {
                 "name": "Mercenary Megacorp",
                 "preferredVictoryType": "Domination",
-                "culture": 4,
-                "faith": 3,
-                "food": 5,
-                "gold": 7,
-                "happiness": 4,
-                "production": 6,
-                "science": 5,
+                "culture": 1,
+                "faith": 1,
+                "food": 3,
+                "gold": 10,
+                "happiness": 5,
+                "production": 3,
+                "science": 6,
                 "military": 8,
                 "priorities": {
                         "Tenacity": 20,
                         "Prestige": 20,
                         "Purification Ideology": 30
                 },
-                "warMongering": 8,
+                "warMongering": 6,
                 "civilopediaText": [
                         {"text": "This kind of megacorporation thrives upon all sorts of wars, selling their services to anyone able to meet their steep price. They will make a profit even if they have to start a few wars of their own."}
                 ]
@@ -454,20 +454,20 @@
         {
                 "name": "Resurgent Military",
                 "preferredVictoryType": "Domination",
-                "culture": 4,
+                "culture": 5,
                 "faith": 3,
-                "food": 4,
-                "gold": 4,
-                "happiness": 5,
-                "production": 8,
-                "science": 4,
-                "military": 9,
+                "food": 2,
+                "gold": 2,
+                "happiness": 1,
+                "production": 6,
+                "science": 8,
+                "military": 10,
                 "priorities": {
                         "Consolidation": 10,
                         "Tenacity": 30,
                         "Purification Ideology": 30
                 },
-                "warMongering": 8,
+                "warMongering": 9,
                 "civilopediaText": [
                         {"text": "This militaristic faction was once brought low and in the brink of collapse, but an upswing of patriotic fervor managed to save them from annihilation."}
                 ]
@@ -476,13 +476,13 @@
                 "name": "Isolationist Survivors",
                 "preferredVictoryType": "Scientific",
                 "culture": 6,
-                "faith": 4,
+                "faith": 6,
                 "food": 7,
-                "gold": 5,
-                "happiness": 6,
-                "production": 6,
-                "science": 7,
-                "military": 9,
+                "gold": 3,
+                "happiness": 7,
+                "production": 5,
+                "science": 2,
+                "military": 8,
                 "priorities": {
                         "Tenacity": 30,
                         "Ingenuity": 20,
@@ -518,19 +518,19 @@
                 "name": "Imperial Raiders",
                 "preferredVictoryType": "Domination",
                 "culture": 7,
-                "faith": 7,
-                        "food": 5,
-                "gold": 7,
-                "happiness": 3,
-                "production": 6,
-                "science": 4,
-                "military": 7,
+                "faith": 3,
+                        "food": 6,
+                "gold": 2,
+                "happiness": 2,
+                "production": 5,
+                "science": 3,
+                "military": 10,
                 "priorities": {
                         "Consolidation": 20,
                         "Prestige": 10,
                         "Purification Ideology": 20
                 },
-                "warMongering": 8,
+                "warMongering": 10,
                 "civilopediaText": [
                                   {"text": "This faction of raiders has big plans to turn themselves into an empire that could rival those in history, via military power."}
                 ]
