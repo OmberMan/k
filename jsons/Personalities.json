@@ -370,14 +370,14 @@
         {
                 "name": "Nomadic Survivors",
                 "preferredVictoryType": "Diplomatic",
-                "culture": 5,
+                "culture": 7,
                 "faith": 6,
-                "food": 5,
+                "food": 8,
                 "gold": 3,
-                "happiness": 7,
-                "production": 5,
+                "happiness": 10,
+                "production": 3,
                 "science": 4,
-                "military": 7,
+                "military": 4,
                 "priorities": {
                         "Pioneer Spirit": 20,
                         "Tenacity": 20,
@@ -581,20 +581,20 @@
         {
                 "name": "Nomadic Raiders",
                 "preferredVictoryType": "Domination",
-                "culture": 6,
+                "culture": 5,
                 "faith": 6,
-                "food": 5,
-                "gold": 5,
-                "happiness": 5,
-                "production": 6,
-                "science": 4,
-                "military": 8,
+                "food": 3,
+                "gold": 8,
+                "happiness": 4,
+                "production": 4,
+                "science": 2,
+                "military": 6,
                 "priorities": {
                         "Pioneer Spirit": 20,
                         "Tenacity": 20,
                         "Ingenuity": 30
                 },
-                "warMongering": 2,
+                "warMongering": 9,
                 "civilopediaText": [
                         {"text": "This raider faction tend to roam far and wide in order to strike at their victims, necessitating nomadic living."}
                 ]
@@ -602,13 +602,13 @@
         {
                 "name": "Rising Power",
                 "preferredVictoryType": "Scientific",
-                "culture": 7,
-                "faith": 6,
+                "culture": 9,
+                "faith": 8,
                 "food": 7,
-                "gold": 5,
+                "gold": 4,
                 "happiness": 7,
-                "production": 5,
-                "science": 5,
+                "production": 6,
+                "science": 4,
                 "military": 6,
                 "priorities": {
                         "Consolidation": 20,
@@ -618,7 +618,7 @@
                         "Humanitarian": 20,
                         "Prestige": 10
                 },
-                "warMongering": 5,
+                "warMongering": 4,
                 "civilopediaText": [
                         {"text": "This faction had just recently became a major player in the world stage, and is building up its political power through various means."}
                 ]
@@ -626,12 +626,12 @@
         {
                 "name": "Radiocative Survivors",
                 "preferredVictoryType": "Scientific",
-                "culture": 3,
-                "faith": 3,
-                "food": 6,
-                "gold": 3,
-                "happiness": 5,
-                "production": 5,
+                "culture": 4,
+                "faith": 1,
+                "food": 7,
+                "gold": 2,
+                "happiness": 2,
+                "production": 6,
                 "science": 7,
                 "military": 7,
                 "priorities": {
@@ -639,7 +639,7 @@
                         "Ingenuity": 20,
                         "Humanitarian": 20
                 },
-                "warMongering": 6,
+                "warMongering": 4,
                 "civilopediaText": [
                         {"text": "This faction is made up of irradiated survivors who banded together in order to pool their scientific might, so they can be saved from their radioactive demise."}
                 ]
