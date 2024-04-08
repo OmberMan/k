@@ -2,14 +2,14 @@
         {
                 "name": "Centralized Researcher",
                 "preferredVictoryType": "Scientific",
-                "culture": 3,
-                "faith": 3,
-                "food": 5,
-                "gold": 3,
+                "culture": 1,
+                "faith": 2,
+                "food": 2,
+                "gold": 4,
                 "happiness": 5,
-                "production": 5,
-                "science": 8,k
-                "military": 5,
+                "production": 6,
+                "science": 10,
+                "military": 4,
                 "priorities": {
                         "Consolidation": 20,
                         "Ingenuity": 20,
@@ -163,14 +163,14 @@
         {
                 "name": "Bullying Warmonger",
                 "preferredVictoryType": "Domination",
-                "culture": 3,
-                "faith": 5,
-                "food": 6,
+                "culture": 2,
+                "faith": 4,
+                "food": 1,
                 "gold": 6,
-                "happiness": 5,
+                "happiness": 2,
                 "production": 7,
-                "science": 3,
-                "military": 9,
+                "science": 8,
+                "military": 10,
                 "priorities": {
                         "Tenacity": 30,
                         "Purification Ideology": 30
@@ -183,14 +183,14 @@
         {
                 "name": "Media Megacorp",
                 "preferredVictoryType": "Cultural",
-                "culture": 8,
-                "faith": 6,
+                "culture": 10,
+                "faith": 7,
                 "food": 5,
-                "gold": 7,
-                "happiness": 8,
+                "gold": 8,
+                "happiness": 10,
                 "production": 5,
                 "science": 6,
-                "military": 5,
+                "military": 2,
                 "priorities": {
                         "Diversity": 30,
                         "Humanitarian": 10,
@@ -199,7 +199,7 @@
                         "Symbiosis Ideology": 20,
                         "Radiant Ideology": 20
                 },
-                "warMongering": 3,
+                "warMongering": 1,
                 "civilopediaText": [
                         {"text": "This kind of megacorporation tends to monopolize the media, ensuring the happiness of their viewers by offering them superior cultural entertainment."}
                 ]
@@ -207,14 +207,14 @@
         {
                 "name": "Wandering Mystic",
                 "preferredVictoryType": "Diplomatic",
-                "culture": 7,
-                "faith": 9,
-                "food": 5,
-                "gold": 6,
-                "happiness": 8,
-                "production": 5,
-                "science": 4,
-                "military": 4,
+                "culture": 9,
+                "faith": 10,
+                "food": 2,
+                "gold": 7,
+                "happiness": 7,
+                "production": 2,
+                "science": 3,
+                "military": 2,
                 "priorities": {
                         "Pioneer Spirit": 30,
                         "Tenacity": 20,
@@ -231,21 +231,21 @@
         {
                 "name": "Eco-harmonist Empire",
                 "preferredVictoryType": "Diplomatic",
-                "culture": 7,
+                "culture": 8,
                 "faith": 6,
                 "food": 8,
-                "gold": 3,
-                "happiness": 8,
-                "production": 5,
-                "science": 4,
-                "military": 4,
+                "gold": 2,
+                "happiness": 7,
+                "production": 3,
+                "science": 5,
+                "military": 6,
                 "priorities": {
                         "Diversity": 20,
                         "Statecraft": 20,
                         "Humanitarian": 10,
                         "Symbiosis Ideology": 30
                 },
-                "warMongering": 3,
+                "warMongering": 5,
                 "civilopediaText": [
                         {"text": "This faction values harmony with its environment, and focuses towards helping fellow organisms."}
                 ]
@@ -369,13 +369,13 @@
         {
                 "name": "Unethical Researcher",
                 "preferredVictoryType": "Domination",
-                "culture": 3,
-                "faith": 3,
-                "food": 5,
-                "gold": 3,
-                "happiness": 3,
-                "production": 7,
-                "science": 9,
+                "culture": 2,
+                "faith": 1,
+                "food": 1,
+                "gold": 7,
+                "happiness": 1,
+                "production": 6,
+                "science": 10,
                 "military": 5,
                 "priorities": {
                         "Consolidation": 20,
@@ -383,7 +383,7 @@
                         "Ascendancy": 20,
                         "Radiant Ideology": 30
                 },
-                "warMongering": 7,
+                "warMongering": 8,
                 "civilopediaText": [
                         {"text": "This faction will go to any length in order to fulfill their scientific curiosity, even by invading others for research purposes."}
                 ]
@@ -391,14 +391,14 @@
         {
                 "name": "Tribal Commune",
                 "preferredVictoryType": "Cultural",
-                "culture": 8,
-                "faith": 6,
-                "food": 6,
+                "culture": 6,
+                "faith": 9,
+                "food": 5,
                 "gold": 4,
-                "happiness": 6,
+                "happiness": 4,
                 "production": 7,
-                "science": 4,
-                "military": 6,
+                "science": 3,
+                "military": 4,
                 "priorities": {
                         "Tenacity": 20,
                         "Humanitarian": 20,
@@ -538,20 +538,20 @@
         {
                 "name": "Zealous Cultists",
                 "preferredVictoryType": "Domination",
-                "culture": 6,
-                "faith": 9,
-                "food": 6,
+                "culture": 5,
+                "faith": 10,
+                "food": 3,
                 "gold": 4,
-                "happiness": 5,
-                "production": 6,
-                "science": 3,
-                "military": 8,
+                "happiness": 4,
+                "production": 7,
+                "science": 4,
+                "military": 9,
                 "priorities": {
                         "Tenacity": 30,
                         "Ascendancy": 20,
                         "Purification Ideology": 30
                 },
-                "warMongering": 8,
+                "warMongering": 10,
                 "civilopediaText": [
                         {"text": "This cult-like faction has incredible zeal to bring down all the unbelievers."}
                 ]
@@ -779,20 +779,20 @@
                 "name": "Nomadic Spacers",
                 "preferredVictoryType": "Cultural",
                 "culture": 8,
-                "faith": 6,
-                "food": 5,
-                "gold": 5,
-                "happiness": 6,
-                "production": 7,
-                "science": 6,
-                "military": 6,
+                "faith": 7,
+                "food": 6,
+                "gold": 10,
+                "happiness": 4,
+                "production": 3,
+                "science": 4,
+                "military": 1,
                 "priorities": {
                         "Pioneer Spirit": 20,
                         "Ingenuity": 20,
                         "Humanitarian": 30,
                         "Radiant Ideology": 20
                 },
-                "warMongering": 5,
+                "warMongering": 1,
                 "civilopediaText": [
                         {"text": "This faction has long wandered the stars, and developed their own culture based on it."}
                 ]
@@ -823,20 +823,20 @@
                 "name": "Diplomatic Ambassador",
                 "preferredVictoryType": "Diplomacy",
                 "culture": 7,
-                "faith": 6,
-                "food": 5,
+                "faith": 2,
+                "food": 7,
                 "gold": 6,
-                "happiness": 6,
-                "production": 4,
-                "science": 7,
-                "military": 5,
+                "happiness": 9,
+                "production": 7,
+                "science": 8,
+                "military": 4,
                 "priorities": {
                         "Diversity": 20,
                         "Statecraft": 30,
                         "Ingenuity": 20,
                         "Prestige": 20
                 },
-                "warMongering": 4,
+                "warMongering": 3,
                 "civilopediaText": [
                         {"text": "This faction seeks to be the foremost in the diplomatic stage, backed by applicable science."}
                 ]
